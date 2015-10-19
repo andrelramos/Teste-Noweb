@@ -9,7 +9,7 @@
             Classe para realizar a conexão com o banco de dados
         */
         
-        public function conectar($servidor = 'localhost', $usuario = 'root', $senha = '@9Andre104075#9', $banco = 'Eventos') {
+        public function conectar($servidor = 'localhost', $usuario = 'root', $senha = '', $banco = 'Eventos') {
             // Conecta-se ao banco de dados MySQL
             $mysqli = new Mysqli($servidor, $usuario, $senha, $banco);
 
